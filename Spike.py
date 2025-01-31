@@ -1,11 +1,5 @@
-MONGO_URI = 'mongodb+srv://Magic:Spike@cluster0.fa68l.mongodb.net/TEST?retryWrites=true&w=majority&appName=Cluster0'
-client = MongoClient(MONGO_URI)
-db = client['TEST']
-users_collection = db['users']
-settings_collection = db['settings']  # A new collection to store global settings
 redeem_codes_collection = db['redeem_codes']
 attack_logs_collection = db['user_attack_logs']
-
 # Bot Configuration
 TELEGRAM_BOT_TOKEN = '7158155349:AAFM0BPWK8Eh5TNubxqSm_4HbrITdeYuKr0'
 ADMIN_USER_ID = 6437994839 
